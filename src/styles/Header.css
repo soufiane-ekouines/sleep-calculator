@@ -1,0 +1,36 @@
+
+.content{
+    top:0;
+    background-color: #0A1929 !important;
+    color: white;
+}
+.Infotitle{
+    font-weight: bold;
+    margin-top: 0px;
+}
+.Info{
+    font-size: 40px;
+}
+.Calcul{
+    width:  700px;
+    height: 50px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.MuiCalendarOrClockPicker-root.css-j3g793-MuiCalendarOrClockPicker-root {
+    background-color: #FFF;
+    color: black;
+    width: 50%;
+    margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .MuiDialogActions-root.MuiDialogActions-spacing.css-hlj6pa-MuiDialogActions-root {
+    width: 48.9%;
+    margin: auto;
+    background-color: #FFF;
+    color: black;
+  }
+  .css-xelq0e-MuiPickerStaticWrapper-content {
+    background-color: #0A1929 !important;
+  }
