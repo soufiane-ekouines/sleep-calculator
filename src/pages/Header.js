@@ -8,13 +8,14 @@ import '../styles/Header.css';
 
 const Header = () => {
     const [value, setValue] = React.useState(dayjs('2022-04-07'));
-    const [hour,sethour]=React.useState(value.$H);
-    const [m,setm]=React.useState(value.$m);
-
-    for(const i=0;i<8;i++)
-    {
-      sethour(hour+i);
-    }
+    // let hour = new Date.now();
+    // const [hour,sethour]=React.useState(value.$H);
+    // const [m,setm]=React.useState(value.$m);
+    
+    // for(let i=0;i<8;i++)
+    // {
+    //   sethour(hour+i);
+    // }
 
     return (
       <div className='content'>
@@ -35,8 +36,8 @@ const Header = () => {
             </LocalizationProvider>
         </div>
         <h1 className='Info'>If you want to go bed Now..</h1>
-        
-        <button className='Calcul'>Wake-up time {hour} </button>
+
+        <button className='Calcul'>Wake-up time {value.$H+7}:{value.$m+1} </button>
 
       </div>
     );
